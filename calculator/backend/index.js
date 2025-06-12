@@ -17,7 +17,7 @@ const ENDPOINTS = {
 };
 
 app.get("/", (req, res) => {
-  res.send("Server is t up. Use /numbers/e, /numbers/p, etc.");
+  res.send("Server is t upto . Use /numbers/e, /numbers/p, etc.");
 });
 
 app.get("/numbers/:type", async (req, res) => {
